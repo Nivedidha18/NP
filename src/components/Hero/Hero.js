@@ -15,18 +15,17 @@ const Hero = ({ handleTextToSpeech }) => {
       message.text =
         'Unlock the door to my captivating portfolio, where each software and Java project weaves a unique narrative, unveiling my passion for exceptional design and development.';
 
-      // Speech synthesis voices
       const getVoices = () => {
         const voices = window.speechSynthesis.getVoices();
         const womanVoice = voices.find(
           (voice) => voice.name === 'Google UK English Female'
         );
         if (womanVoice) {
-          message.voice = womanVoice; // Choose the woman's voice
-          message.lang = 'en-US'; // Set the language
-
-          // Speak the message
-          window.speechSynthesis.speak(message);
+          message.voice = womanVoice;
+          message.lang = 'en-US';
+          if (typeof window.speechSynthesis.speak !== 'undefined') {
+            window.speechSynthesis.speak(message);
+          }
         } else {
           setTimeout(getVoices, 100);
         }
@@ -37,9 +36,12 @@ const Hero = ({ handleTextToSpeech }) => {
   };
 
   useEffect(() => {
-    // Automatically speak when the component mounts
     speak();
   }, []);
+
+  const handleLearnMoreClick = () => {
+    window.location.href = 'https://nivedidha18.github.io/Profile/';
+  };
 
   return (
     <Section grid>
@@ -58,13 +60,7 @@ const Hero = ({ handleTextToSpeech }) => {
           continuous improvement and let's push the boundaries of what's
           possible.
         </SectionText>
-        <Button
-          onClick={() =>
-            (window.location = 'https://nivedidha18.github.io/Profile/')
-          }
-        >
-          Learn more
-        </Button>
+        <Button onClick={handleLearnMoreClick}>Learn more</Button>
         <div style={{ position: 'absolute', bottom: 10, right: 10 }}>
           <AiOutlineAudio onClick={speak} style={{ cursor: 'pointer' }} />
         </div>
