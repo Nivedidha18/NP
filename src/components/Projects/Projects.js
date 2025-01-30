@@ -35,7 +35,7 @@ const Projects = () => (
             </TitleContent>
             <CardInfo className='card-info'>{p.description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
+              <TitleContent></TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
@@ -43,8 +43,38 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              <ExternalLinks>
+                <strong>Technical Specifications:</strong>
+                <ul>
+                  <li>
+                    <strong>Cell Chemistry:</strong>{' '}
+                    {p.techSpecification.cellChemistry}
+                  </li>
+                  <li>
+                    <strong>Discharge Capacity:</strong>{' '}
+                    {p.techSpecification.dischargeCapacity}
+                  </li>
+                  <li>
+                    <strong>Nominal Voltage:</strong>{' '}
+                    {p.techSpecification.nominalVoltage}
+                  </li>
+                  <li>
+                    <strong>Cycle Life:</strong> {p.techSpecification.cycleLife}
+                  </li>
+                  <li>
+                    <strong>Operating Temperature:</strong>{' '}
+                    {p.techSpecification.operatingTemperature}
+                  </li>
+                  <li>
+                    <strong>Weight:</strong> {p.techSpecification.weight}
+                  </li>
+                </ul>
+              </ExternalLinks>
+
+              <div>
+                <strong>Challenges:</strong>
+                <p>{p.challenges}</p>
+              </div>
             </UtilityList>
           </BlogCard>
         );

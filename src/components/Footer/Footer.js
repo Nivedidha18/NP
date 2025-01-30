@@ -20,24 +20,27 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href='tel:11111-111111'>07833-826657</LinkItem>
+          <LinkItem href='tel:11111-111111'>07767-943171</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href='mailto:nivedidhakumar@yahoo.com'>
-            nivedidhakumar@yahoo.com
+          <LinkItem href='mailto:nitishraghavan1999@gmail.com'>
+            nitishraghavan1999@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>
+            © 2025 Nitish Raghavan - Mechanical Design Portfolio. All Rights
+            Reserved.
+          </Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='https://github.com/Nivedidha18'>
+          <SocialIcons href='#'>
             <AiFillGithub size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://www.linkedin.com/in/nivedidha-kumaravelu/'>
+          <SocialIcons href='https://www.linkedin.com/in/nitishraghavan1807/'>
             <AiFillLinkedin size='3rem' />
           </SocialIcons>
           <SocialIcons href='#'>

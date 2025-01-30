@@ -13,7 +13,7 @@ const Hero = ({ handleTextToSpeech }) => {
     if ('speechSynthesis' in window) {
       const message = new SpeechSynthesisUtterance();
       message.text =
-        'Unlock the door to my captivating portfolio, where each software and Java project weaves a unique narrative, unveiling my passion for exceptional design and development.';
+        'Unlock the door to my captivating portfolio, where each mechanical engineering project tells a unique story, showcasing my passion for innovative design, cutting-edge technology, and meticulous development.';
 
       const getVoices = () => {
         const voices = window.speechSynthesis.getVoices();
@@ -40,7 +40,7 @@ const Hero = ({ handleTextToSpeech }) => {
   }, []);
 
   const handleLearnMoreClick = () => {
-    window.location.href = 'https://nivedidha18.github.io/Profile/';
+    window.location.href = '#';
   };
 
   return (
@@ -49,16 +49,20 @@ const Hero = ({ handleTextToSpeech }) => {
         <SectionTitle main center>
           Welcome To
           <br />
-          Nithya Journey!
+          Nitish Journey!
         </SectionTitle>
         <SectionText>
-          Step into a world of continuous learning and innovation. I showcase my
-          commitment to staying at the forefront of the ever-evolving software
-          development landscape. With my strong foundation in Software
-          Engineering and a hunger for knowledge, I bring fresh perspectives and
-          cutting-edge solutions to the table. Join me on this journey of
-          continuous improvement and let's push the boundaries of what's
-          possible.
+          Excited about the future of energy? So am I! As a Mechanical Engineer
+          specialising in battery technology, I’m driven to push the boundaries
+          of energy storage solutions. From electric vehicle (EV) battery packs
+          to solar storage systems and grid energy solutions, I’m constantly
+          working on innovative designs that optimise performance, safety, and
+          efficiency. With expertise in thermal management, battery design, and
+          advanced simulations (CFD, FEA), I tackle complex challenges using PLM
+          software to manage the full product lifecycle—from concept to
+          production. I’ve worked across industries like automotive, energy, and
+          manufacturing, and I’m passionate about developing cutting-edge
+          solutions for a sustainable future.
         </SectionText>
         <Button onClick={handleLearnMoreClick}>Learn more</Button>
         <div style={{ position: 'absolute', bottom: 10, right: 10 }}>

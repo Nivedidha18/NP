@@ -24,58 +24,69 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have expertise in a wide range of programming languages, including Java,
-      Python, Spring Boot, HTML/CSS, JavaScript, SQL, R ggplot2, and PHP. These
-      languages enable me to develop robust and efficient software solutions
-      across various domains. Additionally, I am experienced in using Linux and
-      Shell scripting Bash/Zsh for automating tasks and managing systems. I am
-      proficient in Tableau for data analysis and visualization, and I utilize
-      Git, Bitbucket, and Trello for version control and collaboration. In terms
-      of soft skills, I excel in time management, teamwork, problem-solving, and
-      documentation. I have a logical and analytical mindset, allowing me to
-      approach challenges with innovative solutions. With my natural leadership
-      abilities and agile mindset, I can adapt to changing project requirements
-      and deliver results efficiently. Effective communication, both written and
-      verbal, is one of my strengths, enabling clear information exchange. I am
-      skilled in multitasking and can handle multiple projects simultaneously. I
-      am comfortable working under pressure and can maintain focus to deliver
-      quality results. Building positive and collaborative relationships within
-      a team is important to me, and I value interpersonal skills. Finally, I am
-      confident in my ability to deliver engaging presentations that effectively
-      communicate complex technical concepts to diverse audiences. Overall, I am
-      a well-rounded technology professional with strong technical skills and
-      personal attributes that make me capable of contributing effectively to
-      software development projects.
+      As a Mechanical Engineer with extensive experience in battery technology,
+      I specialise in the design, optimisation, and testing of advanced energy
+      storage systems, including pouch and cylindrical cells. My expertise spans
+      the full lifecycle of battery development—from conceptual design and
+      prototyping to performance testing and system integration. I am skilled in
+      Battery Management Systems (BMS), thermal management, and lithium-ion
+      battery design, ensuring optimal performance, safety, and efficiency. I
+      have worked extensively in the automotive industry, where I contributed to
+      the development of electric vehicle (EV) battery packs. In these projects,
+      I applied my knowledge of BMS and thermal management to ensure battery
+      longevity, safety, and peak performance. Additionally, my proficiency with
+      CFD (Computational Fluid Dynamics) and FEA (Finite Element Analysis) tools
+      like ANSYS and ABAQUS allowed me to optimise cooling systems and
+      structural integrity, ensuring the durability of battery systems under
+      various operating conditions. In the energy sector, I have been involved
+      in the design and implementation of solar battery storage systems and grid
+      energy storage solutions. This includes developing energy-efficient
+      systems that integrate seamlessly with renewable energy sources, as well
+      as simulating battery charging cycles and evaluating system performance to
+      improve cycle life, charging speed, and overall efficiency. I am highly
+      proficient in CAD modelling and simulation tools such as SolidWorks, Cero,
+      and Siemens NX. These tools have allowed me to design and model complex
+      battery systems and mechanical components in high detail, facilitating
+      collaboration and problem-solving across multidisciplinary teams.
+      Additionally, my experience with Siemens NX extends to automated part
+      design and Product Lifecycle Management (PLM) - Windchill and Teamcentre ,
+      ensuring efficient management of the product development cycle from
+      concept to manufacturing. With a strong background in manufacturing
+      automation, I have worked on lean manufacturing projects that optimise
+      battery assembly lines, reducing time and cost while maintaining high
+      product quality. My knowledge of robotics and assembly systems has enabled
+      me to streamline production processes, improving throughput and minimising
+      waste.
     </SectionText>
 
     <List>
       <ListItem>
         <CgWebsite size='3rem' />
         <ListContainer>
-          <ListTitle>Front-End </ListTitle>
+          <ListTitle>Battery specialise </ListTitle>
           <ListParagraph>
             Experience with <br />
-            React
+            Li-ion
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <CgWebsite size='3rem' />
         <ListContainer>
-          <ListTitle>Back-End </ListTitle>
+          <ListTitle>Design Engineer </ListTitle>
           <ListParagraph>
             Experience with <br />
-            Java and Database
+            CAD tool / GD&T
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <SiCognizant size='3rem' />
+        <CgWebsite size='3rem' />
         <ListContainer>
-          <ListTitle>Software Engineer </ListTitle>
+          <ListTitle>Tech Lead </ListTitle>
           <ListParagraph>
             Experience with <br />
-            Cognizant
+            Product Definition & Process Improvements
           </ListParagraph>
         </ListContainer>
       </ListItem>

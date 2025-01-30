@@ -72,15 +72,14 @@ const Timeline = () => {
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        As a Master's student in Software Engineering with 2+ years of
-        experience in various programming languages and technologies, my
-        objective is to secure a Software Engineer/Java developer/Python
-        Developer role where I can utilize my skills and experience to
-        contribute to the development of innovative software solutions. I am
-        eager to work in a dynamic and challenging environment that encourages
-        continuous learning and professional growth. With my ability to write
-        quality code under pressure and collaborate effectively with team
-        members, I am confident in my ability to add value to any organization.
+        Experienced CAD Design Engineer with 5 years of expertise in creating
+        high-quality 3D CAD models and 2D drawings using Catia 3DX and Creo.
+        Proven track record in collaborating with teams to design vehicle
+        components that comply with regulatory standards. Proficient in PLM
+        systems and manufacturing processes, optimizing design workflows for
+        on-time, budget-compliant project delivery. Skilled in managing
+        workloads effectively and mentoring team members to enhance design
+        quality.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

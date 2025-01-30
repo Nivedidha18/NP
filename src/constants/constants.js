@@ -1,87 +1,81 @@
 export const projects = [
   {
-    title: 'Elite Book Reader',
+    title: 'Pouch Cell Battery Design for Electric Vehicles',
     description:
-      'It will help blind people to read the books In our project uses OCR(optical character recognition)technology for the identification of the printed characters using image Sensing devices and computer programming. It processes the captured image and sends it to the text to speech conversion software and the output is sent to the speaker via Bluetooth.',
-    image: '/images/1.jpg',
-    tags: ['Python', 'JavaScript', 'React'],
-    source: '#',
-    visit: '#',
+      'Developed an advanced pouch cell battery system optimised for electric vehicles, featuring high-energy-density, lightweight design, and modular scalability. Integrated NMC cathodes and SiOx anodes to achieve 18.6Ah per cell, along with innovative thermal management strategies to enhance safety and performance.',
+    image: 'Webs/images/5.jpg ',
+    tags: ['Battery Design', 'EV', 'Thermal Management'],
+    techSpecification: {
+      cellChemistry: 'NMC + Graphite + SiOx',
+      dischargeCapacity: '18.6 Ah',
+      nominalVoltage: '3.7V',
+      cycleLife: '1000+ cycles',
+      operatingTemperature: '-20°C to 60°C',
+      weight: '600g per cell',
+    },
+    challenges:
+      'Addressed thermal runaway risks, structural integration complexities, and optimised energy efficiency through rigorous simulations, improved insulation, and iterative design improvements.',
     id: 0,
   },
   {
-    title: 'Paraphrase detection',
+    title: '21700 Cylindrical Cell Battery Design',
     description:
-      'paraphrasing detection to detect the same meaning occur on the page or not so that we can reduce plagiarism, text summaries with Bert and use model. In this project, we used a large data set that was taken from the DPIL corpus for four languages Tamil, Malayalam, Hindi, Punjab. Two tasks are involved in this system. Using deep learning algorithms namely Bert & Use model attempt to classify the given sentences as paraphrases or not. It identify the given sentences as either a paraphrase or semi paraphrase or non-paraphrase.',
-    image: '/images/2.jpg',
-    tags: ['Python', 'React'],
-    source: 'https://github.com/Nivedidha18/paraphrase',
-    visit: 'https://github.com/Nivedidha18/paraphrase',
+      'Designed a high-performance 21700 cylindrical cell battery system, ensuring an optimal balance between energy density, safety, and durability. The system is scalable and suitable for energy storage, portable power, and industrial applications, featuring a nominal capacity of 5.0Ah per cell.',
+    image: '/images/5.jpg',
+    tags: ['Battery Design', 'Energy Storage', 'Safety'],
+    techSpecification: {
+      cellChemistry: 'NMC + Graphite',
+      dischargeCapacity: '5000 mAh',
+      nominalVoltage: '3.7V',
+      cycleLife: '700+ cycles',
+      operatingTemperature: '-10°C to 60°C',
+      weight: '70g per cell',
+    },
+    challenges:
+      'Overcame thermal stability issues by implementing advanced cooling techniques, including phase change materials (PCMs) and specialized cooling fins. Improved mechanical durability through enhanced casing design.',
     id: 1,
-  },
-  {
-    title: 'Study of the Social Media Influenced on Shopping',
-    description:
-      'Study of Social media is used by both men and women, but study shows that there are some disparities in how they utilise these platforms. One way to compare how men and women use social media is by the proportion of counts for various social media platforms. This can include examining statistics on the many social media platforms that men and women use, how frequently they use them, and how much time they spend there. Understanding the differences between males and females behaviour is conceivable.',
-    image: '/images/3.png',
-    tags: ['RStudio'],
-    source: '#',
-    visit: '#',
-    id: 2,
-  },
-  {
-    title: 'Knowledge League',
-    description:
-      'It is a Webpage that provides notes for college students. In this project, we used a large data set that was taken from an ebook and used HTML, CSS and javascript to design.',
-    image: '/images/4.png',
-    tags: ['React'],
-    source: '#',
-    visit: '#',
-    id: 3,
   },
 ];
 export const TimeLineData = {
   education: [
     {
       subject: 'Bachelor of Engineering',
-      degree: 'in Computer Science',
+      degree: 'in Automotive Engineering',
       institution: 'Velammal Engineering College',
       place: 'India',
-      year: '2017-2021',
     },
     {
       subject: 'Master of Science',
-      degree: 'in Software Engineering',
+      degree: 'in Automotive Engineering',
       institution: 'University of Hertfordshire',
       place: 'United Kingdom',
-      year: '2022-2023',
     },
   ],
 
   timeline: [
     {
-      year: '2023-Present',
-      role: 'Web Developer',
-      company: 'Orion Tech Spirits',
+      year: '2024-Present',
+      role: 'Senior Mechanical Engineer',
+      company: 'UK Battery Industrialization Centre',
       place: 'United Kingdom',
     },
     {
-      company: 'University of Hertfordshire',
-      role: 'Exam Invigilator',
+      company: 'UH Racing',
+      role: 'Design Engineer',
       place: 'United Kingdom',
-      year: '2021-2022',
+      year: '2022-2024',
     },
     {
-      company: 'Cognizant Solution Technology',
-      role: 'Full Stack Developer',
+      company: 'Basil Energetics',
+      role: 'Design and Development Engineer',
       place: 'India',
       year: '2021-2022',
     },
     {
-      company: 'OneEye Technology',
-      role: 'Website Developer',
+      company: 'Hyundai Motors',
+      role: 'R&D Engineer',
       place: 'India',
-      year: '2018-2019',
+      year: '2020-2021',
     },
   ],
 };
